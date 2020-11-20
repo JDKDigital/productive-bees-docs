@@ -1,0 +1,7 @@
+site_name: My Docs
+
+nav: 
+  - Home: 'index.md'
+  - Bees: 'bees.md'
+  - Items: 'items.md'
+  - Blocks: 'blocks.md'
