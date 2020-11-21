@@ -1,0 +1,1 @@
+Produced from [Withered Combs](comb#withered) in a [Centrifuge](centrifuge). Can be crafted into a Wither Skull.

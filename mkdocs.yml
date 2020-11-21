@@ -1,7 +1,15 @@
-site_name: My Docs
+site_name: Productive Bees Documentation
 
 nav: 
   - Home: 'index.md'
   - Bees: 'bees.md'
   - Items: 'items.md'
   - Blocks: 'blocks.md'
+
+pages: 
+  - Items: 'items.md'
+  - Wild: 'wild_bees.md'
+  
+theme: 
+  name: null
+  custom_dir: 'theme/'

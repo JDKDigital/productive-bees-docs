@@ -1,0 +1,1 @@
+Holds information about a single attribute extracted from a bee. See [Squashed Bee Material](squashed-bee-material) for more info.
