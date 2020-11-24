@@ -1,7 +1,12 @@
-It's all about the bees 
+Getting Started Guide
 =======================
 
-**There are several different types of bees.**
+**It's all about the bees**
+---------------------------
+
+
+There are several different types of bees.
+------------------------------------------
 
 *Hive bees*, which can live it either a standard,
 basic hive,  or in the advanced one.

@@ -1,0 +1,11 @@
+Feeder Slab
+===========
+
+.. _Feeder Slab:
+
+----------------
+
+Can be used as a collection point for feeding bees.
+
+It holds 3 items blocks.  When :ref:`Lumber<Lumber>` or :ref:`Quary<Quary>`
+bees feed from this,  it will produce from a random item in the feeder.

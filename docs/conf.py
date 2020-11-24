@@ -12,8 +12,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
+
+sys.path.append(os.path.abspath('./exts'))
+
+import CustomBuilder
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -42,7 +46,8 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
     'recommonmark',
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    'CustomBuilder'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -78,8 +83,17 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'custom'
+html_theme_path = ["themes"]
 
+html_css_files = [
+    'css/bulma/css/bulma.min.css',
+    'css/style.css'
+]
+
+html_js_files = [
+    'js/updater.js',
+]
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -99,7 +113,13 @@ html_static_path = ['_static']
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-# html_sidebars = {}
+html_sidebars = {
+    "**": [
+        "navigation.html",
+        "relations.html",
+        'searchbox.html'
+    ]
+}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------

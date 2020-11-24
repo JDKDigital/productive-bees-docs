@@ -1,0 +1,6 @@
+Emerald
+=======
+
+Creates emerald combs, which when processed produce emeralds or emerald dust.
+
+Bread from Slimy and Diamond bees.

@@ -3,27 +3,125 @@ Welcome to Productive Bees documentation!
 =========================================
 
 Getting Started
+
+   .. _Home:
+
+   Side Note:  I'm not a fan of sphinx templating engine
+
    Write paragraph on how to get started.
 
+   **Don't forget section on upgrades!**
+
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Contents:
+   :caption: General Info
 
-All about the bees.
-   :doc:`Bees Info </bees/bees>`
+   /bees/bees
+   common_issues
+   genetics
 
-   
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Bees
+   :caption: Blocks
 
-   /blocks/blocks
-   /items/items
-   /bees/hive_bees
-   /bees/wild_bees
-   /bees/solitary_bees
-   /nests/nests
+   /blocks/bottler
+   /blocks/centrifuge
+   /blocks/feeder_slab
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Bee Hives
+
+   /hives/bamboo_hive
+   /hives/basic_hive
+   /hives/advanced_hive
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Nests
+
+   /nests/dirt_nest
+   /nests/end_stone_nest
+   /nests/glowstone_nest
+   /nests/nether_brick_nest
+   /nests/obsidian_nest
+   /nests/quartz_nest
+   /nests/reed_nest
+   /nests/sand_nest
+   /nests/slimy_nest
+   /nests/snow_nest
+   /nests/soul_sand_nest
+   /nests/stone_nest
+   /nests/wooden_nest
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Upgrades
+
+   /upgrades/anti_teleportation
+   /upgrades/breeding
+   /upgrades/comb_block
+   /upgrades/productivity
+   /upgrades/time
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Hive Bees
+
+   /bees/hive/blazing   
+   /bees/hive/coal   
+   /bees/hive/diamond   
+   /bees/hive/dye   
+   /bees/hive/emerald   
+   /bees/hive/explosive   
+   /bees/hive/gold   
+   /bees/hive/iron   
+   /bees/hive/lapis   
+   /bees/hive/lumber   
+   /bees/hive/redstone   
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Wild Bees
+
+   /bees/wild/crystalline
+   /bees/wild/draconic   
+   /bees/wild/ender   
+   /bees/wild/ghostly   
+   /bees/wild/glowing   
+   /bees/wild/magmatic   
+   /bees/wild/skeletal
+   /bees/wild/slimy
+   /bees/wild/zombee   
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Solitary Bees
+
+   /bees/solitary/ashy_mining   
+   /bees/solitary/blue_banded   
+   /bees/solitary/carpenter   
+   /bees/solitary/chocolate_mining   
+   /bees/solitary/digger
+   /bees/solitary/leafcutter   
+   /bees/solitary/mason   
+   /bees/solitary/neon_cuckoo   
+   /bees/solitary/nomad   
+   /bees/solitary/reed   
+   /bees/solitary/resin   
+   /bees/solitary/sweaty
 
 

@@ -1,0 +1,6 @@
+Wooden Nest
+===========
+
+Works in any overworld biome.  Useful for spawning the following bees;
+
+:ref:`Blue Banded<Blue Banded>`,  Resin,  Yellow Black Carpenter,  Green Carpenter

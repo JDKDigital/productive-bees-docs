@@ -1,0 +1,6 @@
+Blazing
+=======
+
+Creates Blazing combs.  which when processed produces blaze powder.
+
+Breed from `Nomad <solitary_bees.html#Nomad>`_ and Magmatic bees.
