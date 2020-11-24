@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Productive Bees Documentation'
-copyright = u'2020, SnowyLeopardCC, LobsterJohn'
-author = u'SnowyLeopardCC, LobsterJohn'
+copyright = u'2020, SnowyLeopardCC, LobsterJonn'
+author = u'SnowyLeopardCC, LobsterJonn'
 
 # The short X.Y version
 version = u''
@@ -146,7 +146,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'ProductiveBeesDocumentation.tex', u'Productive Bees Documentation Documentation',
-     u'SnowyLeopardCC, LobsterJohn', 'manual'),
+     u'SnowyLeopardCC, LobsterJonn', 'manual'),
 ]
 
 
