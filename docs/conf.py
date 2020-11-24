@@ -12,12 +12,6 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-
-sys.path.append(os.path.abspath('./exts'))
-
-import CustomBuilder
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -46,8 +40,7 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
     'recommonmark',
-    'sphinx.ext.autosectionlabel',
-    'CustomBuilder'
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
