@@ -31,6 +31,17 @@ Getting Started
    /blocks/centrifuge
    /blocks/feeder_slab
 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Items
+
+   /items/bee_cage
+   /items/honey_tree
+   /items/squashed_bee_material
+
+
 .. toctree::
    :maxdepth: 2
    :hidden:
