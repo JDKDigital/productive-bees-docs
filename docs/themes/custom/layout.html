@@ -63,6 +63,7 @@
 				</p>
 			{%- endif %}
 		{%- endblock %}
+
 		<section class="section">
 			<aside class="menu">
 			{%- if sidebars != None %}
@@ -71,26 +72,6 @@
 				{%- for sidebartemplate in sidebars %}
 				{%- include sidebartemplate %}
 				{%- endfor %}
-
-			{%- else %}
-
-				{#- old style sidebars: using blocks -- should be deprecated #}
-
-				{%- block sidebartoc %}
-				{%- endblock %}
-
-				{%- block sidebarrel %}
-				{%- include "relations.html" %}
-				{%- endblock %}
-				{%- block sidebarsourcelink %}
-				{%- include "sourcelink.html" %}
-				{%- endblock %}
-
-				{%- if customsidebar %}
-				{%- include customsidebar %}
-				{%- endif %}
-
-				
 			{%- endif %}
 			</aside>
 		</section>
