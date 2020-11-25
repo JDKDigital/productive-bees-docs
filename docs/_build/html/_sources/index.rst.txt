@@ -17,9 +17,10 @@ Getting Started
    :hidden:
    :caption: General Info
 
-   /bees/bees
-   common_issues
-   genetics
+   /basics/bees
+   /basics/common_issues
+   /basics/genetics
+   /basics/datapack_api
 
 .. toctree::
    :maxdepth: 2
@@ -71,6 +72,17 @@ Getting Started
    /upgrades/productivity
    /upgrades/time
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Worker Bees
+
+   /bees/worker/farmer
+   /bees/worker/hoarder
+   /bees/worker/lumber
+   /bees/worker/rancher
+   /bees/worker/quarry
+
 
 .. toctree::
    :maxdepth: 2
@@ -86,7 +98,6 @@ Getting Started
    /bees/hive/gold   
    /bees/hive/iron   
    /bees/hive/lapis   
-   /bees/hive/lumber   
    /bees/hive/redstone   
 
 

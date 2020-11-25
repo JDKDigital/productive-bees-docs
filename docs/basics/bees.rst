@@ -1,11 +1,14 @@
 Getting Started Guide
 =======================
+.. _Gettings Started Guide:
+
+---------------------------
 
 **It's all about the bees**
----------------------------
 
 
 There are several different types of bees.
+
 ------------------------------------------
 
 *Hive bees*, which can live it either a standard,

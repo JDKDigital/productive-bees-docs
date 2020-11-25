@@ -1,6 +1,5 @@
 Productivity Upgrade
 ====================
-
 .. _Productivity Upgrade:
 
 -------------------------

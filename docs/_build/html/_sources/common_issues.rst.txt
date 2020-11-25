@@ -6,3 +6,29 @@ Common Issues
 ------------------
 
 A place for common issues,  such as the beepocolypse.
+
+
+*Beepocolypse*
+==============
+
+This is an event that occurs on older versions of the mod (prior to 0.5.x),  
+where lots of bees would collect on the border of unloaded and loaded chunks
+
+*Solution*
+
+Upgrade to the latest version.  Then it's reccomended to use either a flamethrower,
+or if you are an admin the following commands.
+
+        | /kill @e[type=productivebees:blue_banded_bee]
+        | /kill @e[type=productivebees:green_carpenter_bee]
+        | /kill @e[type=productivebees:yellow_black_carpenter_bee]
+        | /kill @e[type=productivebees:chocolate_mining_bee]
+        | /kill @e[type=productivebees:ashy_mining_bee]
+        | /kill @e[type=productivebees:digger_bee]
+        | /kill @e[type=productivebees:leafcutter_bee]
+        | /kill @e[type=productivebees:mason_bee]
+        | /kill @e[type=productivebees:reed_bee]
+        | /kill @e[type=productivebees:resin_bee]
+        | /kill @e[type=productivebees:sweaty_bee]
+        | /kill @e[type=productivebees:neon_cuckoo_bee]
+        | /kill @e[type=productivebees:nomad_bee]

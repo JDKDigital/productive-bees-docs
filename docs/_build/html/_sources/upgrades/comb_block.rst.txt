@@ -1,6 +1,5 @@
 Comb Block
 ==========
-
 .. _Comb Block:
 
 Changes the output produced from honey combs,  to comb blocks.

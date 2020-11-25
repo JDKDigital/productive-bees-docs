@@ -77,7 +77,6 @@
 				{#- old style sidebars: using blocks -- should be deprecated #}
 
 				{%- block sidebartoc %}
-				{%- include "localtoc.html" %}
 				{%- endblock %}
 
 				{%- block sidebarrel %}
@@ -200,7 +199,7 @@
 
 	{# top+bottom related navs; we also have our own in sidebar #}
 	{%- macro rellink_markup() %}
-	<nav id="rellinks" class="navbar is-fixed-top is-primary">
+	<nav id="rellinks" class="navbar is-fixed-top has-background-success">
 
 		<div class="navbar-brand">
 			<a class="navbar-item" href="{{ pathto(master_doc) }}">Productive Bees Wiki</a>

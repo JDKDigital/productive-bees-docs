@@ -1,7 +1,8 @@
 Bamboo Hive
 ===========
-
 .. _Bamboo Hive:
+
+----------------
 
 It's a solitary bee hotel.
 
