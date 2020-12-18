@@ -18,3 +18,12 @@ h1 {
 
         border-bottom: 1px dotted navy;
 }
+
+.navbar {
+
+        box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+}
+
+h2 {
+        font-size: 1.875em !important;
+}

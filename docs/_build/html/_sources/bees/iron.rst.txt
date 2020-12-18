@@ -1,6 +1,0 @@
-Iron
-====
-
-Creates iron combs,  which when processed produce iron dust.
-
-Bree from `Ashy Mining <solitary_bees.html#Ashy Mining>`_ and Crystalline bees.

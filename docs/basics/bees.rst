@@ -7,6 +7,9 @@ Getting Started Guide
 **It's all about the bees**
 
 
+Cooldown for breeding the bees is the same as is in 'nilla.
+
+
 There are several different types of bees.
 
 ------------------------------------------

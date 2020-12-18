@@ -1,6 +1,0 @@
-Coal
-====
-
-Produces coal combs,  which when processed creates coal or coal dust.
-
-Bread from :ref:`Blazing<Blazing>` and `Leafcutter <solitary_bees.html#Leafcutter>`_ Bees.

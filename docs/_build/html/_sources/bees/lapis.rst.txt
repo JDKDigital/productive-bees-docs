@@ -1,6 +1,0 @@
-Lapis
-=====
-
-Creates lapis combs,  which when processed creates Lapis Dust. 
-
-Breed from `Blue Banded <solitary_bees.html#Blue Banded>`_ and Redstone bees.

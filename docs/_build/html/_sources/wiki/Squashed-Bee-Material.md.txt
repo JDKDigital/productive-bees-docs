@@ -1,3 +1,0 @@
-Bottles of Squashed Bee Material contains a mix of genetics from a bee. You can get a bees genetic material by first squashing the bee into a bottle using a piston on top of a [bottler](bottler). Make sure the bottler has empty bottles and then contain the bee you wish to extract genes from between the bottler and the piston. Bottles are small, bees are big so it takes a lot of force to get it in. Bees usually do not survive this kind of treatment.
-
-Take your squashed bee material to the [centrifuge](centrifuge) and extract [gene samples](gene-sample) for each of the bees attributes. Combine a gene sample with a [honey treat](honey-treat) and feed it to a bee to transfer the gene.
