@@ -2,15 +2,8 @@
 Welcome to Productive Bees documentation!
 =========================================
 
-Getting Started
+.. _Home:
 
-   .. _Home:
-
-   Side Note:  I'm not a fan of sphinx templating engine
-
-   Write paragraph on how to get started.
-
-   **Don't forget section on upgrades!**
 
 .. toctree::
    :maxdepth: 2
