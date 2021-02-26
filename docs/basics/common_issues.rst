@@ -13,5 +13,13 @@ Common Issues
 - Most of the bees are obtained from breeding two other bees together, recipes for breeding can be found in JEI or the Big Book of Bees.
 - Solitary and wild bees are obtained from nests found around the world. You can make a new bee move into a nest by placing the nest in the right biome and then use one or more Honey Treats on the nest
 
-*How to get a Neon Cuckoo or  a Nomad Bee*
+*How to get a Neon Cuckoo or a Nomad Bee*
 - Neon Cuckoo and Nomad bees are cuckoo bees and will only spawn from nests of other bees. Neon Cuckoo bee will spawn from the nest of a Blue Banded Bee and Nomad bees from the nest of an Ashy Mining Bee
+
+*How to get Skeletal and ZomBees*
+- Skeletal and ZomBees spawn during the night in empty hives left in the dark
+- The spawn rate is rather low, so set up 6-8 hives in the dark and make sure the hives are chunkloaded
+
+*JEI is not showing all the bees*
+- The bees are not always indexed in JEI the first time. If you are an op you can run the /reload command
+- If you are not op, it usually works to disconnect and connect again

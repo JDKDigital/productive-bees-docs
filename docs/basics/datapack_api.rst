@@ -15,13 +15,12 @@ Datapack API information
 Datapack File Structure
 
 | ├- data
-|     ├-- productivebees
-|         ├-- productivebees
-|     ├-- recipes
-|         ├-- bee_breeding
-|         ├-- bee_conversion
-|         ├-- centrifuge
-
+| ----├-- productivebees
+| ----├----├-- productivebees
+| ----├-- recipes
+| ---------├-- bee_breeding
+| ---------├-- bee_conversion
+| ---------├-- centrifuge
 
 
 
