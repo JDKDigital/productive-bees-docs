@@ -7,7 +7,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Bee Conversion Recipes &#8212; Productive Bees Documentation 1.0b documentation</title>
+	<title>Bee Spawning Recipes &#8212; Productive Bees Documentation 1.0b documentation</title>
 <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
 <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="../_static/css/bulma/css/bulma.min.css" />
@@ -21,8 +21,6 @@
 <script type="text/javascript" src="../_static/js/updater.js"></script>
 	<link rel="index" title="Index" href="../genindex.html" />
 	<link rel="search" title="Search" href="../search.html" />
-	<link rel="next" title="Blocks" href="../blocks/blocks.html" />
-	<link rel="prev" title="Bee Breeding Recipes" href="dp_recipes_breeding.html" />
 
 
 
@@ -75,10 +73,8 @@
 <script type="text/javascript">$('#searchbox').show(0);</script>
 
 				<!-- Previous page -->
-				<a class="navbar-item" href="dp_recipes_breeding.html" title="Previous document">Bee Breeding Recipes</a>
 
 				<!-- Next Page -->
-				<a class="navbar-item" href="../blocks/blocks.html" title="Next document">Blocks</a>
 			</div>
 		</div>
 	</nav>
@@ -102,24 +98,8 @@
 			<aside class="menu"><h3>Contents</h3>
 
 <p class="caption"><span class="caption-text">Contents</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../info/info.html">General Info</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bees.html">Getting Started Guide</a></li>
-<li class="toctree-l2"><a class="reference internal" href="common_issues.html">Common Issues</a></li>
-<li class="toctree-l2"><a class="reference internal" href="genetics.html">Genetics</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="datapack_api.html">Datapack API</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="datapack_api.html#datapack-api-information">Datapack API information</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="dp_bee_def.html">Bee Definition</a></li>
-<li class="toctree-l4"><a class="reference internal" href="dp_recipes_production.html">Bee Production Recipes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="dp_recipes_breeding.html">Bee Breeding Recipes</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Bee Conversion Recipes</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../info/info.html">General Info</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../blocks/blocks.html">Blocks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../items/items.html">Items</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../hives/hives.html">Hives</a></li>
@@ -135,12 +115,6 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
-  <li><a href="../info/info.html">General Info</a><ul>
-  <li><a href="datapack_api.html">Datapack API</a><ul>
-      <li>Previous: <a href="dp_recipes_breeding.html" title="previous chapter">Bee Breeding Recipes</a></li>
-      <li>Next: <a href="../blocks/blocks.html" title="next chapter">Blocks</a></li>
-  </ul></li>
-  </ul></li>
   </ul></li>
 </ul>
 </div>
@@ -167,36 +141,77 @@
 				
 				<div class="card" role="main">
 					
-  <div class="section" id="bee-conversion-recipes">
-<h1>Bee Conversion Recipes<a class="headerlink" href="#bee-conversion-recipes" title="Permalink to this headline">¶</a></h1>
-<p>Bee conversion is the second way available for providing a means to create your bee.</p>
+  <div class="section" id="bee-spawning-recipes">
+<h1>Bee Spawning Recipes<a class="headerlink" href="#bee-spawning-recipes" title="Permalink to this headline">¶</a></h1>
+<p>Bees can be set to spawn from nests in the world, both on world-gen and from crafted nests.</p>
 <div class="section" id="type">
 <h2>Type<a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h2>
-<p>Required. This will always be this value.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:bee_conversion&quot;</span>
+<p>Required. This will always be one of these values. Use the big version if you have more than 3 bees in the recipe</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:bee_spawning&quot;</span>
+<span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:bee_spawning_big&quot;</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="source-bee">
-<h2>Source Bee<a class="headerlink" href="#source-bee" title="Permalink to this headline">¶</a></h2>
-<p>Required.  The bee to bee used for the conversion recipe.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;minecraft:bee&quot;</span>
+<div class="section" id="nest">
+<h2>Nest<a class="headerlink" href="#nest" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Required. The nest these spawn rules should apply to. Available nests are:</dt>
+<dd>“productivebees:coarse_dirt_nest”
+“productivebees:gravel_nest”
+“productivebees:sand_nest”
+“productivebees:snow_nest”
+“productivebees:stone_nest”
+“productivebees:soul_sand_nest”
+“productivebees:sugar_cane_nest”
+“productivebees:slimy_nest”
+“productivebees:obsidian_nest”
+“productivebees:glowstone_nest”
+“productivebees:nether_brick_nest”
+“productivebees:nether_quartz_nest”
+“productivebees:end_stone_nest”
+“productivebees:oak_wood_nest”
+“productivebees:acaia_wood_nest”
+“productivebees:birch_wood_nest”
+“productivebees:dark_oak_wood_nest”
+“productivebees:spruce_wood_nest”
+“productivebees:jungle_wood_nest”</dd>
+</dl>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;ingredient&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;item&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:coarse_dirt_nest&quot;</span>
+<span class="p">},</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="result">
-<h2>Result<a class="headerlink" href="#result" title="Permalink to this headline">¶</a></h2>
-<p>Required.  The bee produced from the conversion recipe.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;result&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:bacon&quot;</span>
+<div class="section" id="bees">
+<h2>Bees<a class="headerlink" href="#bees" title="Permalink to this headline">¶</a></h2>
+<p>Required. A list of bees, 5 max.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;results&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;bee&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:ashy_mining_bee&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;bee&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:chocolate_mining_bee&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;bee&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:leafcutter_bee&quot;</span>
+    <span class="p">}</span>
+<span class="p">],</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="conversion-item">
-<h2>Conversion Item<a class="headerlink" href="#conversion-item" title="Permalink to this headline">¶</a></h2>
-<p>Required.  The item or itemtag used for the bee conversion.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;item&quot;</span><span class="o">:</span> <span class="p">{</span>
-        <span class="s2">&quot;tag&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:rawpork&quot;</span>
-<span class="p">}</span>
+<div class="section" id="biome-requirements">
+<h2>Biome requirements<a class="headerlink" href="#biome-requirements" title="Permalink to this headline">¶</a></h2>
+<p>Optional. A list of biome categories required for the recipe to take effect</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;biomes&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">&quot;desert&quot;</span><span class="p">,</span> <span class="s2">&quot;beach&quot;</span>
+<span class="p">],</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id1">
+<h2>Biome requirements<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Optional. The number of ticks it takes for a bee from this recipe to spawn when a honey treat is used on the nest.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;repopulation_cooldown&quot;</span><span class="o">:</span> <span class="mi">24000</span>
 </pre></div>
 </div>
 </div>

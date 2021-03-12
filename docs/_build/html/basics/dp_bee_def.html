@@ -21,7 +21,7 @@
 <script type="text/javascript" src="../_static/js/updater.js"></script>
 	<link rel="index" title="Index" href="../genindex.html" />
 	<link rel="search" title="Search" href="../search.html" />
-	<link rel="next" title="Bee Breeding Recipes" href="dp_recipes_breeding.html" />
+	<link rel="next" title="Bee Production Recipes" href="dp_recipes_production.html" />
 	<link rel="prev" title="Datapack API" href="datapack_api.html" />
 
 
@@ -78,7 +78,7 @@
 				<a class="navbar-item" href="datapack_api.html" title="Previous document">Datapack API</a>
 
 				<!-- Next Page -->
-				<a class="navbar-item" href="dp_recipes_breeding.html" title="Next document">Bee Breeding Recipes</a>
+				<a class="navbar-item" href="dp_recipes_production.html" title="Next document">Bee Production Recipes</a>
 			</div>
 		</div>
 	</nav>
@@ -109,27 +109,13 @@
 <li class="toctree-l2"><a class="reference internal" href="common_issues.html">Common Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="genetics.html">Genetics</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="datapack_api.html">Datapack API</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Bee Definition</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#primary-color">Primary Color</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#secondary-color">Secondary Color</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#particle-color">Particle Color</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#bee-texture">Bee Texture</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#create-comb">Create Comb</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#attack-response">Attack Response</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#teleportation">Teleportation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#fire-proof">Fire Proof</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#translucent">Translucent</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#draconic">Draconic</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#redstone">Redstone</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#slimy">Slimy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#withering">Withering</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#blinding">Blinding</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#munchies">Munchies</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#additional-attributes">Additional Attributes</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="datapack_api.html#datapack-api-information">Datapack API information</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Bee Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dp_recipes_production.html">Bee Production Recipes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dp_recipes_breeding.html">Bee Breeding Recipes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dp_recipes_conversion.html">Bee Conversion Recipes</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="dp_recipes_breeding.html">Bee Breeding Recipes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="dp_recipes_conversion.html">Bee Conversion Recipes</a></li>
 </ul>
 </li>
 </ul>
@@ -138,63 +124,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../items/items.html">Items</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../hives/hives.html">Hives</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../nests/nests.html">Nests</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Upgrades</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/anti_teleportation.html">Anti Teleportation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/breeding.html">Breeding Upgrade</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/comb_block.html">Comb Block</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/productivity.html">Productivity Upgrade</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upgrades/time.html">Time Upgrade</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Worker Bees</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../bees/worker/farmer.html">Farmer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/worker/hoarder.html">Hoarder</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/worker/lumber.html">Lumber</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/worker/rancher.html">Racher</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/worker/quarry.html">Quarry Bee</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Hive Bees</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/blazing.html">Blazing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/coal.html">Coal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/diamond.html">Diamond</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/dye.html">Dye</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/emerald.html">Emerald</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/explosive.html">Explosive</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/gold.html">Gold</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/iron.html">Iron</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/lapis.html">Lapis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/hive/redstone.html">Redstone</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Wild Bees</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/crystalline.html">Crystalline</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/draconic.html">Draconic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/ender.html">Ender</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/ghostly.html">Ghostly</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/glowing.html">Glowing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/magmatic.html">Magmatic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/skeletal.html">Skeletal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/slimy.html">Slimy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/wild/zombee.html">Zombie</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Solitary Bees</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/ashy_mining.html">Ashy Mining</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/blue_banded.html">Blue Banded</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/carpenter.html">Green Carpenter</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/carpenter.html#yellow-black-carpenter">Yellow Black Carpenter</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/chocolate_mining.html">Chocolate Mining</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/digger.html">Digger</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/leafcutter.html">Leafcutter</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/mason.html">Mason</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/neon_cuckoo.html">Neon Cuckoo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/nomad.html">Nomad</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/reed.html">Reed</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/resin.html">Resin</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/sweaty.html">Sweaty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../upgrades/upgrades.html">Upgrades</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bees/worker/worker_bees.html">Worker Bees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bees/hive/hive_bees.html">Hive Bees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bees/wild/wild_bees.html">Wild Bees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bees/solitary/solitary_bees.html">Solitary Bees</a></li>
 </ul>
 
 <div class="section">
@@ -204,7 +138,7 @@
   <li><a href="../info/info.html">General Info</a><ul>
   <li><a href="datapack_api.html">Datapack API</a><ul>
       <li>Previous: <a href="datapack_api.html" title="previous chapter">Datapack API</a></li>
-      <li>Next: <a href="dp_recipes_breeding.html" title="next chapter">Bee Breeding Recipes</a></li>
+      <li>Next: <a href="dp_recipes_production.html" title="next chapter">Bee Production Recipes</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -235,12 +169,11 @@
 					
   <div class="section" id="bee-definition">
 <h1>Bee Definition<a class="headerlink" href="#bee-definition" title="Permalink to this headline">¶</a></h1>
-<p>Defining a bee</p>
+<p>JSON file for containing the config for the bee, required for all bees.</p>
 <div class="section" id="primary-color">
 <h2>Primary Color<a class="headerlink" href="#primary-color" title="Permalink to this headline">¶</a></h2>
-<p>Hex Color Code for the primary color of the bee,  and spawn egg.</p>
-<p>Required if not using a custom texture.  One of two main key: values
-needed to create a bee. (If not using custom texture.)</p>
+<p>Hex Color Code for the primary color of the bee and spawn egg.</p>
+<p><em>Required</em></p>
 <p>Value: String (Hex color code)</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;primaryColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#f2f24f&quot;</span>
 </pre></div>
@@ -249,8 +182,7 @@ needed to create a bee. (If not using custom texture.)</p>
 <div class="section" id="secondary-color">
 <h2>Secondary Color<a class="headerlink" href="#secondary-color" title="Permalink to this headline">¶</a></h2>
 <p>Hex Color Code for the primary color of the bee,  and spawn egg.</p>
-<p>Required if not using a custom texture.  One of two main key: values
-needed to create a bee. (If not using custom texture.)</p>
+<p><em>Required</em></p>
 <p>Value: String (Hex color code)</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;primaryColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#f2f24f&quot;</span>
 </pre></div>
@@ -258,7 +190,8 @@ needed to create a bee. (If not using custom texture.)</p>
 </div>
 <div class="section" id="particle-color">
 <h2>Particle Color<a class="headerlink" href="#particle-color" title="Permalink to this headline">¶</a></h2>
-<p>Hex Color Code for the particles the bees emit.</p>
+<p><em>Optional</em></p>
+<p>Hex Color Code for the particles the bees emit when having nectar. If not provided, the default vanilla particle color will be used.</p>
 <p>Value: String (Hex color code)</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;secondaryColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#d0581f&quot;</span>
 </pre></div>
@@ -266,16 +199,37 @@ needed to create a bee. (If not using custom texture.)</p>
 </div>
 <div class="section" id="bee-texture">
 <h2>Bee Texture<a class="headerlink" href="#bee-texture" title="Permalink to this headline">¶</a></h2>
-<p>If you would like to use a custom texture for your bee,  other wise the default
-one with the colors will be used instead.</p>
+<p><em>Optional</em></p>
+<p>If you would like to use a custom texture for your bee, other wise the default one with the colors will be used instead.
+Custom textures can be put in a resource pack.</p>
 <p>Value: String (resource location)</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;beeTexture&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:textures/entity/bee/base/bee&quot;</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;beeTexture&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:path_to_your_texture_file&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="name">
+<h2>Name<a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
+<p>By default, the filename will be used to create the name. If you want a different name from the filename, you can define it here.</p>
+<p>Value: string</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Patrick SwayzBee&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="nesting-preference">
+<h2>Nesting Preference<a class="headerlink" href="#nesting-preference" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
+<p>This option is used by wild bees to define which nests and hives it can live in. The value is a blocktag resource location.</p>
+<p>Value: string (resource location)</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;nestingPreference&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:nests/nether_quartz_nests&quot;</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="create-comb">
 <h2>Create Comb<a class="headerlink" href="#create-comb" title="Permalink to this headline">¶</a></h2>
-<p>Whether or not to create a comb for your bee.</p>
+<p><em>Optional</em></p>
+<p>Whether or not to create a comb for your bee. Most of the bees provided by default output comb items from the item registry.
+For custom bees you can have the mod make an NBT based comb by setting this to true.</p>
 <p>Value: boolean</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;createComb&quot;</span><span class="o">:</span> <span class="kc">true</span>
 </pre></div>
@@ -283,15 +237,100 @@ one with the colors will be used instead.</p>
 </div>
 <div class="section" id="attack-response">
 <h2>Attack Response<a class="headerlink" href="#attack-response" title="Permalink to this headline">¶</a></h2>
-<p>This is for if you would like your bee to use a different attack response.  Valid
-options are fire,  and lava.</p>
-<p>Values: [ “fire”, “lava” ]</p>
+<p><em>Optional</em></p>
+<p>This is for if you would like your bee to use a special attack response.
+Current options are:</p>
+<blockquote>
+<div>“fire” - sets the target on fire
+“lava” - drops lava on the target</div></blockquote>
+<p>Value: string</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;attackResponse&quot;</span><span class="o">:</span> <span class="s2">&quot;fire&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="model-renderer">
+<h2>Model renderer<a class="headerlink" href="#model-renderer" title="Permalink to this headline">¶</a></h2>
+<p>You can pick different models for your bee besides the default.</p>
+<dl class="docutils">
+<dt>Available models:</dt>
+<dd>“default” - the default value giving a normal bee model
+“default_crystal” - default sized bee with glowing crystals growing out of it
+“translucent_with_center” - used for slimy bees, renders the bee with a translucent skin and a blob in the center. Custom texture is required for this model.
+“thicc” - big boi bee
+“small” - smaller size, requires custom texture
+“slim” - smaller size, requires custom texture
+“tiny” - requires custom texture</dd>
+</dl>
+<p>Value: string</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;renderer&quot;</span><span class="o">:</span> <span class="s2">&quot;default_crystal&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="flowering">
+<h2>Flowering<a class="headerlink" href="#flowering" title="Permalink to this headline">¶</a></h2>
+<p>Define what your bee will use as flower. Most bees are set to use a block of the type of resource it’s producing, but you can choose any block or tag.
+Only one of the two entries should be used. If you have a tag, use the flowerTag, for single blocks use the flowerBlock option.</p>
+<p>Value: string</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;flowerTag&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:storage_blocks/iron&quot;</span>
+<span class="s2">&quot;flowerBlock&quot;</span><span class="o">:</span> <span class="s2">&quot;minecraft:dirt&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="size">
+<h2>Size<a class="headerlink" href="#size" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
+<p>If the model is not your desired size you can adjust it here.
+Don’t make the bee too small as it will start going through walls.</p>
+<p>Value: float</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;size&quot;</span><span class="o">:</span> <span class="mf">1.0</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="additional-attributes">
+<h2>Additional Attributes<a class="headerlink" href="#additional-attributes" title="Permalink to this headline">¶</a></h2>
+<p>These are additional attributes for your bee.  Such as weather tolerance, productivity, etc.
+Each of these key: value pairs are optional. You can include none or all.
+Default values will be applied for the attributes not defined.</p>
+<p>Value: boolean</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;attributes&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;temper&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s2">&quot;endurance&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;behavior&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;productivity&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;weather_tolerance&quot;</span><span class="o">:</span> <span class="mi">2</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="conditions">
+<h2>Conditions<a class="headerlink" href="#conditions" title="Permalink to this headline">¶</a></h2>
+<p>Bees can be conditionally loaded. Conditions follow the same rules as recipe conditions.
+The example value can be used to disable a bee.</p>
+<p>Value: array</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;conditions&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:not&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;value&quot;</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:mod_loaded&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;modid&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees&quot;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="translucency">
+<h2>Translucency<a class="headerlink" href="#translucency" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
+<p>Bees can be translucent. A custom translucent texture must be provided as well.</p>
+<p>Value: boolean</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;translucent&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="teleportation">
 <h2>Teleportation<a class="headerlink" href="#teleportation" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
 <p>If you would like for your bee to be able to teleport. Such as the <a class="reference internal" href="../bees/wild/ender.html#ender"><span class="std std-ref">Ender</span></a> bee for example.
 (This could prove to make things interesting lol.)</p>
 <p>Value: boolean</p>
@@ -301,14 +340,16 @@ options are fire,  and lava.</p>
 </div>
 <div class="section" id="fire-proof">
 <h2>Fire Proof<a class="headerlink" href="#fire-proof" title="Permalink to this headline">¶</a></h2>
-<p>Is your bee fireproof?</p>
+<p><em>Optional</em></p>
+<p>Is your bee fireproof? Prevents damage from fire and lava.</p>
 <p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;fireproof&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;fireproof&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="translucent">
 <h2>Translucent<a class="headerlink" href="#translucent" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
 <p>Should your bee be translucent?</p>
 <p>Value: boolean</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;translucent&quot;</span><span class="o">:</span> <span class="kc">false</span>
@@ -317,65 +358,55 @@ options are fire,  and lava.</p>
 </div>
 <div class="section" id="draconic">
 <h2>Draconic<a class="headerlink" href="#draconic" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
 <p>Allows for your bee to live in egg hives and gives them protection from dragon’s breath attack;</p>
 <p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;draconic&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;draconic&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="redstone">
-<h2>Redstone<a class="headerlink" href="#redstone" title="Permalink to this headline">¶</a></h2>
-<p>Should your bee emit a redstone signal?</p>
+<div class="section" id="redstoned">
+<h2>Redstoned<a class="headerlink" href="#redstoned" title="Permalink to this headline">¶</a></h2>
+<p><em>Optional</em></p>
+<p>Should your bee emit a redstone signal when having nectar, triggering contraptions below it?</p>
 <p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;redstoned&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;redstoned&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="slimy">
 <h2>Slimy<a class="headerlink" href="#slimy" title="Permalink to this headline">¶</a></h2>
-<p>Whether or not your bee drips particles.</p>
+<p><em>Optional</em></p>
+<p>Randomly emit slime particles</p>
 <p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;slimy&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;slimy&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="withering">
 <h2>Withering<a class="headerlink" href="#withering" title="Permalink to this headline">¶</a></h2>
-<p>Whether or not your bee gives a withered effect.</p>
+<p><em>Optional</em></p>
+<p>Whether or not your bee gives a withered effect when attacking. Also provides immunity to wither damage.</p>
 <p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;withered&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;withered&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="blinding">
 <h2>Blinding<a class="headerlink" href="#blinding" title="Permalink to this headline">¶</a></h2>
-<p>Whther or not your bee gives a blinding effect.</p>
+<p><em>Optional</em></p>
+<p>Whether or not your bee gives a blinding effect when attacking.</p>
 <p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;blinding&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;blinding&quot;</span><span class="o">:</span> <span class="kc">false</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="munchies">
 <h2>Munchies<a class="headerlink" href="#munchies" title="Permalink to this headline">¶</a></h2>
-<p>Does your bee give hunger to nearby people?</p>
+<p><em>Optional</em></p>
+<p>Does your bee give hunger to targets?</p>
 <p>Value: boolean</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;munchies&quot;</span><span class="o">:</span> <span class="kc">false</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="additional-attributes">
-<h2>Additional Attributes<a class="headerlink" href="#additional-attributes" title="Permalink to this headline">¶</a></h2>
-<p>These are additional attributes for your bee.  Such as weathr tolerance,
-productivity,  etc.  Each of these key: value pairs are optional.  You can
-include one or all.</p>
-<p>Value: boolean</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;attributes&quot;</span><span class="o">:</span> <span class="p">{</span>
-        <span class="s2">&quot;temper&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
-        <span class="s2">&quot;endurance&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
-        <span class="s2">&quot;behavior&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
-        <span class="s2">&quot;productivity&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
-        <span class="s2">&quot;weather_tolerance&quot;</span><span class="o">:</span> <span class="mi">2</span>
-<span class="p">}</span>
 </pre></div>
 </div>
 </div>

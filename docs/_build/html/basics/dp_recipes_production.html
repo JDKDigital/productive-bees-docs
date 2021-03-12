@@ -7,7 +7,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Bee Conversion Recipes &#8212; Productive Bees Documentation 1.0b documentation</title>
+	<title>Bee Production Recipes &#8212; Productive Bees Documentation 1.0b documentation</title>
 <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
 <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="../_static/css/bulma/css/bulma.min.css" />
@@ -21,8 +21,8 @@
 <script type="text/javascript" src="../_static/js/updater.js"></script>
 	<link rel="index" title="Index" href="../genindex.html" />
 	<link rel="search" title="Search" href="../search.html" />
-	<link rel="next" title="Blocks" href="../blocks/blocks.html" />
-	<link rel="prev" title="Bee Breeding Recipes" href="dp_recipes_breeding.html" />
+	<link rel="next" title="Bee Breeding Recipes" href="dp_recipes_breeding.html" />
+	<link rel="prev" title="Bee Definition" href="dp_bee_def.html" />
 
 
 
@@ -75,10 +75,10 @@
 <script type="text/javascript">$('#searchbox').show(0);</script>
 
 				<!-- Previous page -->
-				<a class="navbar-item" href="dp_recipes_breeding.html" title="Previous document">Bee Breeding Recipes</a>
+				<a class="navbar-item" href="dp_bee_def.html" title="Previous document">Bee Definition</a>
 
 				<!-- Next Page -->
-				<a class="navbar-item" href="../blocks/blocks.html" title="Next document">Blocks</a>
+				<a class="navbar-item" href="dp_recipes_breeding.html" title="Next document">Bee Breeding Recipes</a>
 			</div>
 		</div>
 	</nav>
@@ -111,9 +111,9 @@
 <li class="toctree-l2 current"><a class="reference internal" href="datapack_api.html">Datapack API</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="datapack_api.html#datapack-api-information">Datapack API information</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="dp_bee_def.html">Bee Definition</a></li>
-<li class="toctree-l4"><a class="reference internal" href="dp_recipes_production.html">Bee Production Recipes</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Bee Production Recipes</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dp_recipes_breeding.html">Bee Breeding Recipes</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Bee Conversion Recipes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dp_recipes_conversion.html">Bee Conversion Recipes</a></li>
 </ul>
 </li>
 </ul>
@@ -137,8 +137,8 @@
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="../info/info.html">General Info</a><ul>
   <li><a href="datapack_api.html">Datapack API</a><ul>
-      <li>Previous: <a href="dp_recipes_breeding.html" title="previous chapter">Bee Breeding Recipes</a></li>
-      <li>Next: <a href="../blocks/blocks.html" title="next chapter">Blocks</a></li>
+      <li>Previous: <a href="dp_bee_def.html" title="previous chapter">Bee Definition</a></li>
+      <li>Next: <a href="dp_recipes_breeding.html" title="next chapter">Bee Breeding Recipes</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -167,36 +167,41 @@
 				
 				<div class="card" role="main">
 					
-  <div class="section" id="bee-conversion-recipes">
-<h1>Bee Conversion Recipes<a class="headerlink" href="#bee-conversion-recipes" title="Permalink to this headline">¶</a></h1>
-<p>Bee conversion is the second way available for providing a means to create your bee.</p>
+  <div class="section" id="bee-production-recipes">
+<h1>Bee Production Recipes<a class="headerlink" href="#bee-production-recipes" title="Permalink to this headline">¶</a></h1>
+<p>Recipe defining what a bee produces inside an advanced hive.</p>
 <div class="section" id="type">
 <h2>Type<a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h2>
 <p>Required. This will always be this value.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:bee_conversion&quot;</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:advanced_beehive&quot;</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="source-bee">
-<h2>Source Bee<a class="headerlink" href="#source-bee" title="Permalink to this headline">¶</a></h2>
-<p>Required.  The bee to bee used for the conversion recipe.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;minecraft:bee&quot;</span>
+<div class="section" id="bee-ingredient">
+<h2>Bee Ingredient<a class="headerlink" href="#bee-ingredient" title="Permalink to this headline">¶</a></h2>
+<p>Required. The id of the bee.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;ingredient&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:coal&quot;</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="result">
-<h2>Result<a class="headerlink" href="#result" title="Permalink to this headline">¶</a></h2>
-<p>Required.  The bee produced from the conversion recipe.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;result&quot;</span><span class="o">:</span> <span class="s2">&quot;productivebees:bacon&quot;</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="conversion-item">
-<h2>Conversion Item<a class="headerlink" href="#conversion-item" title="Permalink to this headline">¶</a></h2>
-<p>Required.  The item or itemtag used for the bee conversion.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;item&quot;</span><span class="o">:</span> <span class="p">{</span>
-        <span class="s2">&quot;tag&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:rawpork&quot;</span>
-<span class="p">}</span>
+<div class="section" id="results">
+<h2>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
+<p>Required. The array of output items. min, max and chance are optional.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;results&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;item&quot;</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">&quot;tag&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:honeycombs/fossilised&quot;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;item&quot;</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">&quot;item&quot;</span><span class="o">:</span> <span class="s2">&quot;minecraft:coal&quot;</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;min&quot;</span><span class="o">:</span> <span class="mf">1.0</span><span class="p">,</span>
+        <span class="s2">&quot;max&quot;</span><span class="o">:</span> <span class="mf">2.0</span><span class="p">,</span>
+        <span class="s2">&quot;chance&quot;</span><span class="o">:</span> <span class="mi">30</span>
+    <span class="p">}</span>
+<span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -204,10 +209,10 @@
 <h2>Conditions<a class="headerlink" href="#conditions" title="Permalink to this headline">¶</a></h2>
 <p>Optional.  Typically used as a check for a mod being loaded / available. Conditions should match that of the bees used.</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;conditions&quot;</span><span class="o">:</span> <span class="p">[</span>
-        <span class="p">{</span>
-                <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:mod_loaded&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;modid&quot;</span><span class="o">:</span> <span class="s2">&quot;simplefarming&quot;</span>
-        <span class="p">}</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;forge:mod_loaded&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;modid&quot;</span><span class="o">:</span> <span class="s2">&quot;simplefarming&quot;</span>
+    <span class="p">}</span>
 <span class="p">]</span>
 </pre></div>
 </div>

@@ -35,7 +35,7 @@ Required.  The bee produced from the conversion recipe.
 Conversion Item
 ===============
 
-Required.  The item used for the bee conversion.
+Required.  The item or itemtag used for the bee conversion.
 
 .. code-block:: javascript
 
@@ -46,7 +46,7 @@ Required.  The item used for the bee conversion.
 Conditions
 ==========
 
-Optional.  Typically used as a check for a mod being loaded / available.
+Optional.  Typically used as a check for a mod being loaded / available. Conditions should match that of the bees used.
 
 .. code-block:: javascript
 
