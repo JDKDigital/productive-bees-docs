@@ -5,20 +5,24 @@ Datapack API
 
 -----------------
 
-Roll your own Bee information here!
+Roll your own Bees!
+
+Productive Bees support has extensive datapack support making it possible to add your own bees or to overwrite and even remove existing bees or to change their production output.
+
 Datapack API information
 ************************
 
+Datapack File Structure
 
-| | Example Datapack File Structure
-| |- data
-| | |-- productivebees
-| | |-- productivebees
-| | | |-- bee definition json files
-| | |-- recipes
-| | | |-- bee_breeding
+| ├- data
+| ----├-- productivebees
+| ----├----├-- productivebees
+| ----├-- recipes
+| ---------├-- bee_breeding
+| ---------├-- bee_conversion
+| ---------├-- centrifuge
 
-TODO: Create file structure
+
 
 .. toctree::
    :maxdepth: 2
@@ -26,6 +30,7 @@ TODO: Create file structure
    :caption: Docs
 
    /basics/dp_bee_def
+   /basics/dp_recipes_production
    /basics/dp_recipes_breeding
    /basics/dp_recipes_conversion
    

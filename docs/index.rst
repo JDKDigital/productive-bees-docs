@@ -2,7 +2,7 @@
 Welcome to Productive Bees documentation!
 =========================================
 
-Getting Started
+.. _Home:
 
    .. _Home:
 

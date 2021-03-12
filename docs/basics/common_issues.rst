@@ -4,30 +4,22 @@ Common Issues
 
 ------------------
 
-A place for common issues,  such as the beepocolypse.
+*Why do my bees not go into my hive?*
+- Most of the bees found in the overworld are solitary bees and will not live in a hive. They need nests to live in, don't produce resources and are mostly used for breeding other bees.
+- Each bee has specific flower requirements, make sure they are met. Flower requirements can bee seen in JEI by right clicking or pressing 'U' on the bee
+- If your bees were living in a different hive, they might still remember it as their home. Put the bee in a cage and release it while sneaking next to the new hive.
 
+*How to get X bee?*
+- Most of the bees are obtained from breeding two other bees together, recipes for breeding can be found in JEI or the Big Book of Bees.
+- Solitary and wild bees are obtained from nests found around the world. You can make a new bee move into a nest by placing the nest in the right biome and then use one or more Honey Treats on the nest
 
-**Beepocolypse**
+*How to get a Neon Cuckoo or a Nomad Bee*
+- Neon Cuckoo and Nomad bees are cuckoo bees and will only spawn from nests of other bees. Neon Cuckoo bee will spawn from the nest of a Blue Banded Bee and Nomad bees from the nest of an Ashy Mining Bee
 
+*How to get Skeletal and ZomBees*
+- Skeletal and ZomBees spawn during the night in empty hives left in the dark
+- The spawn rate is rather low, so set up 6-8 hives in the dark and make sure the hives are chunkloaded
 
-This is an event that occurs on older versions of the mod (prior to 0.5.x),  
-where lots of bees would collect on the border of unloaded and loaded chunks
-
-*Solution*
-
-Upgrade to the latest version.  Then it's reccomended to use either a flamethrower,
-or if you are an admin the following commands.
-
-        | /kill @e[type=productivebees:blue_banded_bee]
-        | /kill @e[type=productivebees:green_carpenter_bee]
-        | /kill @e[type=productivebees:yellow_black_carpenter_bee]
-        | /kill @e[type=productivebees:chocolate_mining_bee]
-        | /kill @e[type=productivebees:ashy_mining_bee]
-        | /kill @e[type=productivebees:digger_bee]
-        | /kill @e[type=productivebees:leafcutter_bee]
-        | /kill @e[type=productivebees:mason_bee]
-        | /kill @e[type=productivebees:reed_bee]
-        | /kill @e[type=productivebees:resin_bee]
-        | /kill @e[type=productivebees:sweaty_bee]
-        | /kill @e[type=productivebees:neon_cuckoo_bee]
-        | /kill @e[type=productivebees:nomad_bee]
+*JEI is not showing all the bees*
+- The bees are not always indexed in JEI the first time. If you are an op you can run the /reload command
+- If you are not op, it usually works to disconnect and connect again
